@@ -22,7 +22,6 @@ main{
 }
 
 .logo-toboolist-written{
-    font-size: 35px;
     font-family: sans-serif;
     font-weight: 700;
 }
@@ -30,11 +29,39 @@ main{
 /* main section */
 main{
     background-color: lightgray;
+    font-family: sans-serif;
+    font-weight: normal;
 }
 
-.white-container{
+.buttons-section, .tasks-section{
     margin: 20px auto;
     padding: 20px 20px;
     width: 900px;
     background-color: white;
+}
+
+/* button section */
+.buttons-section{
+    margin-bottom: 5px;
+    /* capire come mettere un margin singolo */
+}
+
+.button{
+    display: inline;
+    margin-right: 10px;
+    border-radius: 5%;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.active{
+    background-color: rgb(0, 174, 255);
+    border: 2px solid rgb(0, 174, 255);
+    color: white;
+}
+
+.non-active{
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
 }
