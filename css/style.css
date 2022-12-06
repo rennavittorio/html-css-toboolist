@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+main{
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
 /* sezione header */
 .logo-section{
     border: 2px solid black;
@@ -20,4 +25,16 @@
     font-size: 35px;
     font-family: sans-serif;
     font-weight: 700;
+}
+
+/* main section */
+main{
+    background-color: lightgray;
+}
+
+.white-container{
+    margin: 20px auto;
+    padding: 20px 20px;
+    width: 900px;
+    background-color: white;
 }
