@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+/* sezione header */
+.logo-section{
+    border: 2px solid black;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.logo-toboolist, .logo-toboolist-written{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-toboolist-written{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
