@@ -38,11 +38,42 @@ body {
     font-weight: 700;
 }
 
-.logo-toboolist {
+.main-header .logo {
     vertical-align: middle;
 }
 /* fine header */
 
+/* inizio sezione task list */
+.container {
+    max-width: 750px;
+    margin: 0 auto; 
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+main {
+    padding: 20px 0;
+    /* meglio usare padding qui, perché non crea spazi vuoti */
+    /* megliora la gestione dell'aggiunta di elementi futuri */
+}
+
+.card-header, .card-body {
+    border-bottom: 2px solid #eeeeee;
+    padding: 25px 50px;
+}
+
+.card-header {
+    border-bottom: 2px solid #eeeeee;
+}
+
+.main-list-item {
+    margin-bottom: 20px;
+}
+
+/* fine sezione task list */
 
 
 

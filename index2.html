@@ -14,21 +14,61 @@
 
 </head>
 <body>
-    <!-- zona logo (header) -->
+    <!-- inizio sezione logo (header) -->
     <header class="main-header">
-        <img src="img/Logo.png" alt="logo-toboolist" class="logo-toboolist">
+        <img src="img/Logo.png" alt="logo-toboolist" class="logo">
         Toboolist
         <!-- non avendo sign semantico, non ha senso creare un elemento -->
         <!-- inoltre, così è elemento già inline, non serve modificare il display -->
 
     </header>
-    <!-- fine header -->
+    <!-- fine sezione logo (header) -->
 
 
-    <!-- zona tasks list (main) -->
+    <!-- inizio sezione tasks list (main) -->
     <main>
+        <div class="container card buttons">
+        <!-- inizio sezione buttons -->
+            <div class="card-header">
+                buttons
+            </div>
+        <!-- fine sezione buttons -->
 
+        <!-- inizio sezione lista -->
+            <div class="card-body">
+                <!-- da usare list-sublist -->
+                <ul class="main-list">
+                    <li class="main-list-item">
+                        <strong class="task-category">
+                            &dtrif; New Task
+                        </strong>
+                        <!-- sublist -->
+                        <ul class="task-sublist">
+                            <li class="sublist-item"></li>
+                        </ul>
+                    </li>
+
+                    <li class="main-list-item">
+                        <strong class="task-category">
+                            &dtrif; Today
+                        </strong>
+
+                    </li>
+                    <li class="main-list-item">
+                        <strong class="task-category">
+                            &dtrif; Upcoming
+                        </strong>
+
+                    </li>
+
+                </ul>
+            </div>
+        <!-- fine sezione lista -->
+
+
+        </div>
     </main>
+    <!-- fine sezione task list -->
     
 </body>
 </html>
